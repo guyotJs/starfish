@@ -7,7 +7,7 @@
     ["Time","https://guyotjs.github.io/tm",true],
     ["Tusky Time","https://tuskytime.org"],
     ["Weston","https://classicmc-studios.github.io/Westonism/snowstorm/"],
-    ["Boyce VA","https://guyotjs.github.io/boyce/",true],
+    ["Arabic","https://guyotjs.github.io/arabic/",true],
     ["Sno","https://snojs.github.io"],
     ["Polycarp","https://guyotjs.github.io/Polycarp"],
     ["Bible","https://classicmc-studios.github.io/bible/",true]
