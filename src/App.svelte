@@ -14,8 +14,8 @@
   import {setCookie, getCookie} from "./cookies.js";
 
   let visable = $state(false);
-  let version = $state("XXIII");
-  let date = $state("02/02/2025")
+  let version = $state("א");
+  let date = $state("04/02/2025")
   let dark = $state(false);
   let bgImg = $state("url(https://guyotjs.github.io/consoles/n64Light.png)");
   let toBlend = $state("rgba(255,255,255,0.8)");
@@ -65,14 +65,14 @@
 </style>
 <svelte:head>
   <title>Guyot {version}</title>
-  <link rel="shortcut icon" href="https://guyotjs.github.io/duckclear.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://guyotjs.github.io/duckclear2.png" type="image/x-icon">
 </svelte:head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div style="--currentbg: {bgImg};--color:{toBlend};--blender:{blender};" class="img"></div>
 <Header {visable} {version} {dark}/>
   {#if visable}
     <div in:fade="{{delay: 1400 + 3 * 150, duration: 800}}">
-      <div class="text-center italic" class:white={dark}>Revision 1</div>
+      <!-- <div class="text-center italic" class:white={dark}>Revision 1</div> -->
       <!--
         Header Content
       -->

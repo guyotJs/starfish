@@ -34,7 +34,7 @@
 		<i class:white={dark} class="fa fa-cube"></i><span class="opacity">Website</span>
 	</a>
 	&nbsp;&nbsp;
-	<a href="mailto: classicmclive+guyot@gmail.com">
+	<a href="mailto: weston@guyotjs.org">
 		<i class:white={dark} class="fa fa-envelope"></i><span class="opacity">Email</span>
 	</a>
 	&nbsp;&nbsp;

@@ -1,7 +1,7 @@
 <script>
   let {dark} = $props();
-  let word = $state("Mountain Village")
-  let loaction = $state("https://wiki.dominionstrategy.com/images/e/ed/Mountain_Village.jpg");
+  let word = $state("Feodum")
+  let loaction = $state("http://wiki.dominionstrategy.com/images/thumb/1/1f/Feodum.jpg/800px-Feodum.jpg");
 </script>
 <style>
   hr{

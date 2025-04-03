@@ -52,7 +52,7 @@
   .toHoverMachine > #O{display: inline-block;transform: rotate(0deg)translate(0px,0px);transition: ease-in-out 0.3s;font-family: serif!important;}
   .toHoverMachine > #T{display: inline-block;transform: rotate(0deg)translate(0px,0px);transition: ease-in-out 0.3s;font-family: serif!important;}
 </style>
-<div class="text-center f-xxl pt-xl">
+<div class="text-center f-xxl pt-xl" style="user-select:none;">
   <span class="toHoverMachine">
     {#each "GUYOT" as letter,i}
       {#if visable}

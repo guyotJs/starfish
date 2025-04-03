@@ -5,7 +5,7 @@
       visable = !visable;
     }
     let vers = $state([
-      ["Guyot XXIII Rev 1","#urAlreadyHere",true],
+      ["Guyot XXIII Rev 1","https://classicmc-studios.github.io/Westonism/old_guyot/xxiii1",true],
       ["Guyot XXIII","#FromNueot"],
       ["Guyot XXII Rev2","https://classicmc-studios.github.io/Westonism/old_guyot/xxii2",true],
       ["Guyot XXII Rev1","https://classicmc-studios.github.io/Westonism/old_guyot/xxii1",true],
@@ -32,7 +32,9 @@
       ["Guyot 0.9","https://guyotjs.github.io/original"],
       ["Guyot 0.5.6","https://classicmc-studios.github.io/Westonism/old_guyot/first"],
       ["Guyot 12%","https://classicmc-studios.github.io/guyot"]
-    ])
+    ]);
+
+    let search = $state("");
   </script>
   <style>
     .w-react{
