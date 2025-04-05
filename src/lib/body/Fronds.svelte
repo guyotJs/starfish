@@ -14,13 +14,13 @@
     ["FF 1&2 Advance","https://nueot-437a9.web.app/games/ff12.html",false,"https://i.ebayimg.com/images/g/lR4AAOxyDgRQ9xZD/s-l500.jpg"],
     ["FFV Advance","https://nueot-437a9.web.app/games/ffv.html",true,"http://guyotjs.github.io/ffv.png"],
     ["Leafgreen","https://nueot-437a9.web.app/games/lg.html",false,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtas7PEu2HTM0nhIUuhkQhDWxhAJ_cS97Nw&s"],
-    ["FFIV Advance","https://nueot-437a9.web.app/games/ffivadv.html",false,"https://oyster.ignimgs.com/mediawiki/apis.ign.com/final-fantasy-iv-the-complete-collection/4/48/Ff4ds-box-1651614531243.jpg?width=640"],
+    ["FFIV Advance","https://nueot-437a9.web.app/games/ffivadv.html",false,"https://guyotjs.github.io/fi/ffiv.jpg"],
     ["Mario Kart Super Circut","https://nueot-437a9.web.app/games/mksc.html",true,"https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Super_Circuit.jpg/220px-Super_Circuit.jpg"],
     ["Emerald","https://nueot-437a9.web.app/games/emerald.html",false,"https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg"],
-    ["Minish Cap","https://nueot-437a9.web.app/games/mc.html",false,"https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/93/ZeldaMinishCap_BoxArt.jpg/revision/latest/scale-to-width-down/250?cb=20100414213912"],
+    ["Minish Cap","https://nueot-437a9.web.app/games/mc.html",false,"https://guyotjs.github.io/fi/minish.png"],
     ["Spyro","https://nueot-437a9.web.app/games/spyro.html",true,"https://upload.wikimedia.org/wikipedia/en/2/25/Spyro_2_Season_of_Flame_box_art.JPG"],
-    ["FFVI Adv","https://nueot-437a9.web.app/games/ffvien.html",false,"https://i1.sndcdn.com/artworks-FfExVhhV4GrMCbBW-ndHQog-t500x500.jpg"],
-    ["Kirby Nightmare","https://nueot-437a9.web.app/games/nightmare.html",false,"https://static.wikia.nocookie.net/kirby/images/f/f8/KNiD_Boxart.jpg/revision/latest?cb=20080719011713&path-prefix=en"]
+    ["FFVI Adv","https://nueot-437a9.web.app/games/ffvien.html",false,"https://guyotjs.github.io/fi/ffvi.jpg"],
+    ["Kirby Nightmare","https://nueot-437a9.web.app/games/nightmare.html",false,"https://guyotjs.github.io/fi/nightmare.png"]
   ]);
   let snes = $state([
     ["FFIV","https://nueot-437a9.web.app/games/ffiv-snes.html",false,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTb9q77hocujQfDlo9vDb2c6Lq-lp4Nk-gmA&s"],
@@ -68,11 +68,11 @@
   let flash = $state([
     ["Run","https://guyotjs.github.io/flash/games/run.html",false,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRudPrRNvfQUbTOHKo-5vK5UTvDEyXZrwfIr0e9s2dqEaUJXo0:https://static.wikia.nocookie.net/run1438/images/8/8b/Level_1_Run_1.png/revision/latest%3Fcb%3D20171118034645&s"],
     ["Bloxorz","https://guyotjs.github.io/flash/games/b.html",false,"https://i.ytimg.com/vi/ba2BJ1jcVFw/sddefault.jpg"],
-    ["Run 3","https://guyotjs.github.io/flash/games/run3.html",true,"https://lh3.googleusercontent.com/pqxLQPh7hd8g71Pwarr89IJ5pwF_P74Fkq0yxF8w9YTdUh3qHmV8i9GlEsdTLpnXi3CPPw_SAczBGdYgIRgKMtBBHA=s1280-w1280-h800"],
+    ["Breaking the Bank","https://guyotjs.github.io/flash/games/btb.html",true,"https://guyotjs.github.io/fi/btb.png"],
     ["Fancy Pants 1","https://guyotjs.github.io/flash/games/fpa.html",false,"https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/e86e8f057ec357e9b1bc04963a99e752.png"],
     ["Fancy Pants 2","https://guyotjs.github.io/flash/games/fpa2.html",false,"https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/61c4ff5c0dbf5ee32e2b19693c9c073d.png"],
     ["Fancy Pants 3","https://guyotjs.github.io/flash/games/fpa3.html",true,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScOkIaZHMeoUcDwNs_AKYZ8j2wB1NtV1eJxJ62VK0CefYN1p0:https://img.poki-cdn.com/cdn-cgi/image/quality%3D78,width%3D314,height%3D314,fit%3Dcover,f%3Dauto/abc05b37671c22f2c4407e27c6707283.png&s"],
-    ["Breaking the Bank","https://guyotjs.github.io/flash/games/btb.html",false,"https://guyotjs.github.io/fi/btb.png"],
+    ["Run 3","https://guyotjs.github.io/flash/games/run3.html",false,"https://guyotjs.github.io/fi/run3.jpg"],
     ["Escaping the Prison","https://guyotjs.github.io/flash/games/etp.html",false,"https://i.ytimg.com/vi/1qaS7MwFRAo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA-b_1Pj-NtMbQIHncKaooetmOVfg"],
     ["Stealing the Diamond","https://guyotjs.github.io/flash/games/std.html",true,"https://i.ytimg.com/vi/LRA-xu8CPm0/maxresdefault.jpg"],
     ["Duck Life Treasure Hunt","https://guyotjs.github.io/flash/games/dlth.html",false,"https://img.tapimg.net/market/images/b556fe85ccf6784b7e0d6ca4d8d03c9d.png?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1"],
