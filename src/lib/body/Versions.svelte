@@ -47,14 +47,6 @@
       backdrop-filter:blur(5px);
       -webkit-backdrop-filter: blur(5px);
     }
-    .white-border{
-      border:1px solid gray;
-      border-radius: 5px;
-    }
-    .dark{
-      border: 1px solid lightgray;
-      border-radius: 5px;
-    }
     .hover:hover{
       font-weight: 900;
     }
@@ -90,10 +82,6 @@
     a{
       margin: 3px;
     }
-    .nue-calm{
-      color:#49d0a7;
-      text-decoration: none;
-    }
     .calm{
       text-decoration: none;
     }
@@ -102,17 +90,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <div class="text-center p w-react m-m blur" class:white-border={dark} class:dark={!dark}>
     <div style="display:inline-block">
-      {#if !visable}
-        <button class="fake-button f" class:white={dark} onclick={toggle}> <i class="fa fa-folder-o"></i> Versions </button>
-      {:else}
-        <button class="fake-button f" class:white={dark} onclick={toggle}> <i class="fa fa-folder-open-o"></i> Versions </button>
-      {/if}
+      <button class="fake-button f hover-bold" class:white={dark} onclick={toggle}> <i class="fa fa-folder-o "></i> Versions </button>
     </div>
     <hr/>
     {#if visable}
       <div class="text-center contain`" class:white-border={dark} class:dark={!dark}>
         {#each vers as ver, i}
-          <a href={ver[1]} class:calm={!dark} class:nue-calm={dark}>{ver[0]}</a>
+          <a href={ver[1]} class:calm={!dark} class="no-underline" class:nue-calm={dark}>{ver[0]}</a>
           {#if !ver[2]}<br/>{/if}
         {/each}
       </div>

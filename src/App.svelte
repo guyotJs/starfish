@@ -14,7 +14,7 @@
   import {setCookie, getCookie} from "./cookies.js";
 
   let visable = $state(false);
-  let version = $state("א");
+  let version = $state("צ");
   let date = $state("04/02/2025")
   let dark = $state(false);
   let bgImg = $state("url(https://guyotjs.github.io/consoles/n64Light.png)");
@@ -57,7 +57,9 @@
     left:0;
     top:0;
     z-index: -100;
-    background-image: var(--currentbg);
+    background-image: var(--currentbg),
+      radial-gradient(circle at 30% 30%, rgba(5, 255, 255, 0.5), transparent 100%),
+      radial-gradient(circle at 70% 90%, rgba(255, 5, 255, 0.5), transparent 100%);;
     background-color: var(--color);
     background-blend-mode: var(--blender);
     background-repeat:no-repeat;background-size:cover;background-position:center center;background-attachment:fixed!important;

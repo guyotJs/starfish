@@ -26,17 +26,6 @@
     backdrop-filter:blur(5px);
     -webkit-backdrop-filter: blur(5px);
   }
-  .white{
-    border:1px solid gray;
-    border-radius: 5px;
-  }
-  .dark{
-    border: 1px solid lightgray;
-    border-radius: 5px;
-  }
-  .nue-calm{
-    color:#49d0a7;
-  }
   hr{
     border-color: rgba(0,0,0,0);
     margin:1px;
@@ -49,8 +38,8 @@
     margin: 3px;
   }
 </style>
-<div class="text-center p w-react m-m blur" class:white={dark} class:dark={!dark}>
-  <div style="display:inline-block">
+<div class="text-center p w-react m-m blur" class:white-border={dark} class:dark={!dark}>
+  <div style="display:inline-block;" class:white={dark}>
     <i class="fa fa-laptop"></i> Sites
   </div>
   <hr/>

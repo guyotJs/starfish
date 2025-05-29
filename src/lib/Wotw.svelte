@@ -1,15 +1,12 @@
 <script>
   let {dark} = $props();
-  let word = $state("Feodum")
-  let loaction = $state("http://wiki.dominionstrategy.com/images/thumb/1/1f/Feodum.jpg/800px-Feodum.jpg");
+  let word = $state("Island")
+  let loaction = $state("http://wiki.dominionstrategy.com/images/thumb/f/fd/Island.jpg/800px-Island.jpg");
 </script>
 <style>
   hr{
     border-color: rgba(0,0,0,0);
     margin:1px;
-  }
-  .nue-calm{
-    color:#49d0a7;
   }
   img{
     width:150px;

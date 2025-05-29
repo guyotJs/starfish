@@ -101,9 +101,6 @@
   .small{
     font-size: 12px;
   }
-  .nue-calm{
-    color:#49d0a7;
-  }
   .no-m{
     margin:0;
   }
@@ -114,14 +111,6 @@
   a{
     margin: 3px;
   }
-  .white-border{
-    border:1px solid gray;
-    border-radius: 5px;
-  }
-  .dark{
-    border: 1px solid lightgray;
-    border-radius: 5px;
-  }
   button:not(.fake-button){
     background-color: rgba(0,0,0,0);
     border: 1px solid rgba(0,0,0,0);
@@ -129,7 +118,10 @@
     padding:2px;
   }
   button:hover:not(.fake-button){
-    border: 1px solid lightgray;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .nin:hover{
+    border: 1px solid rgba(0,0,0,0.2)!important;
   }
   .fake-button{
     background-color: rgba(0,0,0,0);
@@ -149,11 +141,11 @@
   </div>
   <hr/>
   <div>
-    <button onclick={selectGBA} class:white={dark}>GBA</button>
-    <button onclick={selectSNES} class:white={dark}>SNES</button>
-    <button onclick={selectN64} class:white={dark}>N64</button>
-    <button onclick={selectOLD64} class:white={dark}>Old64</button>
-    <button onclick={selectFLASH} class:white={dark}>Flash</button><br/>
+    <button onclick={selectGBA} class:white={dark} class:nin={!dark}>GBA</button>
+    <button onclick={selectSNES} class:white={dark} class:nin={!dark}>SNES</button>
+    <button onclick={selectN64} class:white={dark} class:nin={!dark}>N64</button>
+    <button onclick={selectOLD64} class:white={dark} class:nin={!dark}>Old64</button>
+    <button onclick={selectFLASH} class:white={dark} class:nin={!dark}>Flash</button><br/>
     <hr/>
     {#if selected == "NONE"}
       <p style="font-size:12px;" class="no-border" class:gray={!dark} class:white={dark}>
