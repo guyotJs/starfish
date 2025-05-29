@@ -15,7 +15,7 @@
 
   let visable = $state(false);
   let version = $state("צ");
-  let date = $state("04/02/2025")
+  let date = $state("05/28/2025")
   let dark = $state(false);
   let bgImg = $state("url(https://guyotjs.github.io/consoles/n64Light.png)");
   let toBlend = $state("rgba(255,255,255,0.8)");
