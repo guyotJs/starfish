@@ -98,42 +98,10 @@
     margin-left:50%;
     transform: translate(-50%);
   }
-  .small{
-    font-size: 12px;
-  }
-  .no-m{
-    margin:0;
-  }
-  .blur{
-    backdrop-filter:blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-  }
-  a{
-    margin: 3px;
-  }
-  button:not(.fake-button){
-    background-color: rgba(0,0,0,0);
-    border: 1px solid rgba(0,0,0,0);
-    border-radius: 3px;
-    padding:2px;
-  }
-  button:hover:not(.fake-button){
-    border: 1px solid rgba(255,255,255,0.2);
-  }
-  .nin:hover{
-    border: 1px solid rgba(0,0,0,0.2)!important;
-  }
-  .fake-button{
-    background-color: rgba(0,0,0,0);
-    border: none;
-  }
-  hr{
-    border-color: rgba(0,0,0,0);
-    margin:1px;
-  }
-  a:hover{
-    font-weight: 900;
-  }
+  .small{font-size: 12px;}
+  .no-m{margin:0;}
+  a{margin: 3px;}
+  a:hover{font-weight: 900;}
 </style>
 <div class="text-center p w-react m-m blur" class:white-border={dark} class:dark={!dark} class:white={dark}>
   <div style="display:inline-block">

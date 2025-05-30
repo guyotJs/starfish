@@ -33,8 +33,6 @@
       ["Guyot 0.5.6","https://classicmc-studios.github.io/Westonism/old_guyot/first"],
       ["Guyot 12%","https://classicmc-studios.github.io/guyot"]
     ]);
-
-    let search = $state("");
   </script>
   <style>
     .w-react{
@@ -43,48 +41,16 @@
       margin-left:50%;
       transform: translate(-50%);
     }
-    .blur{
-      backdrop-filter:blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-    }
-    .hover:hover{
-      font-weight: 900;
-    }
     .contain{
-      height: 200px;
+      height: 150px;
       overflow-y: scroll;
       padding: 1px;
       backdrop-filter: blur(10px);
       -wekbkit-backdrop-filter: blur(10px);
     }
-    button:not(.fake-button){
-          margin:0px;
-          padding:2px;
-          border: 1px solid rgba(0,0,0,0);
-      background-color: rgba(0,0,0,0);
-      }
-      button:hover:not(.fake-button){
-          border:1px solid gray;
-          border-radius: 5px;
-      }
-    hr{
-      border-color: rgba(0,0,0,0);
-      margin:1px;
-    }
-    .fake-button{
-      background-color: rgba(0,0,0,0);
-      border: none;
-    }
-    a:hover{
-      font-weight: 900;
-      /* text-decoration: line-through; */
-    }
-    a{
-      margin: 3px;
-    }
-    .calm{
-      text-decoration: none;
-    }
+    a{margin: 3px;}
+    a:hover{font-weight: 900;}
+    .calm{text-decoration: none;}
   </style>
   <link rel='stylesheet' href="https://guyotjs.github.io/bcss/bc.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -94,7 +60,7 @@
     </div>
     <hr/>
     {#if visable}
-      <div class="text-center contain`" class:white-border={dark} class:dark={!dark}>
+      <div class="text-center contain" class:white-border={dark} class:dark={!dark}>
         {#each vers as ver, i}
           <a href={ver[1]} class:calm={!dark} class="no-underline" class:nue-calm={dark}>{ver[0]}</a>
           {#if !ver[2]}<br/>{/if}

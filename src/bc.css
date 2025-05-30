@@ -7,7 +7,8 @@
  | _ \| (__  
  |___/ \___|.css 2024 The Guyot Project
  Additive css library for use along with 
- regular css or with alognside w3css.
+ regular css or with alognside w3css
+ This version has been heavily modified.
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
@@ -23,6 +24,31 @@
 .white-border{
   border:1px solid rgba(255,255,255,0.1);
   border-radius: 5px;
+}
+.blur{
+  backdrop-filter:blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+hr{
+  border-color: rgba(0,0,0,0);
+  margin:1px;
+}
+button:not(.fake-button){
+  margin:0px;
+  padding:2px;
+  border: 1px solid rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0);
+}
+button:hover:not(.fake-button){
+  border:1px solid rgba(255,255,255,0.2);
+  border-radius: 5px;
+}
+.nin:hover{
+  border: 1px solid rgba(0,0,0,0.2)!important;
+}
+.fake-button{
+  background-color: rgba(0,0,0,0);
+  border: none;
 }
 
 *{

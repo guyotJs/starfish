@@ -1,6 +1,5 @@
 <script>
   let {dark} = $props();
-  let selected = $state(undefined);
   let apps = $state([
     ["Books","https://guyotjs.github.io/books"],
     ["Credits","https://guyotjs.github.io/credits"],
@@ -22,21 +21,8 @@
     margin-left:50%;
     transform: translate(-50%);
   }
-  .blur{
-    backdrop-filter:blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-  }
-  hr{
-    border-color: rgba(0,0,0,0);
-    margin:1px;
-  }
-  a:hover{
-    font-weight: 900;
-    /* text-decoration: line-through; */
-  }
-  a{
-    margin: 3px;
-  }
+  a{margin: 3px;}
+  a:hover{font-weight: 900;}
 </style>
 <div class="text-center p w-react m-m blur" class:white-border={dark} class:dark={!dark}>
   <div style="display:inline-block;" class:white={dark}>

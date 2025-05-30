@@ -15,9 +15,10 @@
 
   let visable = $state(false);
   let version = $state("צ");
-  let date = $state("05/28/2025")
+  let date = $state("05/30/2025");
+  let bgConsole = $state("gb")
   let dark = $state(false);
-  let bgImg = $state("url(https://guyotjs.github.io/consoles/n64Light.png)");
+  let bgImg = $state("url(https://guyotjs.github.io/consoles/gbLight.png)");
   let toBlend = $state("rgba(255,255,255,0.8)");
   let blender = $state("lighten");
   let showModal = $state(false);
@@ -31,14 +32,14 @@
       setCookie("dark","true",365);
       dark = true;
       blender = "darken";
-      bgImg = "url(https://guyotjs.github.io/consoles/n64Dark.png)";
+      bgImg = "url(https://guyotjs.github.io/consoles/gbDark.png)";
       toBlend = "rgba(36,36,36,0.9)";
     }
     else{
       setCookie("dark","false",365);
       dark = false;
       blender = "lighten";
-      bgImg = "url(https://guyotjs.github.io/consoles/n64Light.png)";
+      bgImg = "url(https://guyotjs.github.io/consoles/gbLight.png)";
       toBlend = "rgba(255,255,255,0.8)";
     }
   }
@@ -50,7 +51,7 @@
   });
 </script>
 <style>
-  .img{
+  .background{
     position:fixed;
     width:100%;
     height:100%;
@@ -70,20 +71,14 @@
   <link rel="shortcut icon" href="https://guyotjs.github.io/duckclear2.png" type="image/x-icon">
 </svelte:head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div style="--currentbg: {bgImg};--color:{toBlend};--blender:{blender};" class="img"></div>
+<div style="--currentbg: {bgImg};--color:{toBlend};--blender:{blender};" class="background"></div>
 <Header {visable} {version} {dark}/>
   {#if visable}
     <div in:fade="{{delay: 1400 + 3 * 150, duration: 800}}">
-      <!-- <div class="text-center italic" class:white={dark}>Revision 1</div> -->
-      <!--
-        Header Content
-      -->
+      <div class="text-center italic" class:white={dark}>Revision 1</div>
       <!-- <Sno {dark}/> -->
       <Links {dark}/>
       <Wotw {dark}/>
-      <!--
-        Bondy Content
-      -->
       <Fronds {dark}/>
       <Apps {dark}/>  
       <Versions {dark}/>

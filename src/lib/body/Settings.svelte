@@ -12,34 +12,7 @@
     margin-left:50%;
     transform: translate(-50%);
   }
-  .blur{
-    backdrop-filter:blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-  }
-  .hover:hover{
-    font-weight: 900;
-  }
-  button:not(.fake-button){
-		margin:0px;
-		padding:2px;
-		border: 1px solid rgba(0,0,0,0);
-    background-color: rgba(0,0,0,0);
-	}
-	button:hover:not(.fake-button){
-		border:1px solid rgba(255,255,255,0.2);
-		border-radius: 5px;
-	}
-  .nin:hover{
-    border: 1px solid rgba(0,0,0,0.2)!important;
-  }
-  hr{
-    border-color: rgba(0,0,0,0);
-    margin:1px;
-  }
-  .fake-button{
-    background-color: rgba(0,0,0,0);
-    border: none;
-  }
+  .hover:hover{font-weight: 900;}
 </style>
 <link rel='stylesheet' href="https://guyotjs.github.io/bcss/bc.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
