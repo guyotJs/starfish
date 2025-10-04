@@ -8,7 +8,8 @@
   function selectN64(){selected = "N64";}
   function selectOLD64(){selected = "OLD";}
   function selectFLASH(){selected = "FLASH";}
-
+  function selectGB(){selected = "GB";}
+  
   let gba = $state([
     ["Doom","./games/doom.html",false,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWT3-NdVALiaYvQkxPIqwNovfdafUjk8C8Mw&s"],
     ["FF 1&2 Advance","https://nueot-437a9.web.app/games/ff12.html",false,"https://i.ebayimg.com/images/g/lR4AAOxyDgRQ9xZD/s-l500.jpg"],
@@ -88,6 +89,9 @@
     ["Riddle School 2","https://guyotjs.github.io/flash/games/rs1.html",false,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbpEsM5xwbjEmKUuF2bbiwoZxYp5mDDY3dc9xrXmPIOt6CTjs:https://static.wikia.nocookie.net/riddleschool/images/7/7e/Rs2_thumb.jpg/revision/latest%3Fcb%3D20160613062023&s"],
     ["Riddle School 3","https://guyotjs.github.io/flash/games/rs3.html",false,"https://guyotjs.github.io/fi/rs3.png"],
   ])
+  let gb = $state([
+    ["Pokémon Gold","https://nueot-437a9.web.app/games/gold.html",false,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKtuV6Qn_8jb4c6YTQnbz01jGLS78uyrSDFw&s"]
+  ])
 </script>
 <link rel='stylesheet' href="https://guyotjs.github.io/bcss/bc.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -113,7 +117,8 @@
     <button onclick={selectSNES} class:white={dark} class:nin={!dark}>SNES</button>
     <button onclick={selectN64} class:white={dark} class:nin={!dark}>N64</button>
     <button onclick={selectOLD64} class:white={dark} class:nin={!dark}>Old64</button>
-    <button onclick={selectFLASH} class:white={dark} class:nin={!dark}>Flash</button><br/>
+    <button onclick={selectFLASH} class:white={dark} class:nin={!dark}>Flash</button>
+    <button onclick={selectGB} class:white={dark} class:nin={!dark}>GB</button><br/>
     <hr/>
     {#if selected == "NONE"}
       <p style="font-size:12px;" class="no-border" class:gray={!dark} class:white={dark}>
@@ -151,6 +156,13 @@
       {/each}
     {:else if selected == "FLASH"}
       {#each flash as app,i}
+        <a href={app[1]}>
+          <img src={app[3]} alt={app[1]} width="150px" style="margin:3px;border-radius:5px;">
+        </a>
+        {#if app[2]}<br/>{/if}
+      {/each}
+    {:else if selected == "GB"}
+      {#each gb as app,i}
         <a href={app[1]}>
           <img src={app[3]} alt={app[1]} width="150px" style="margin:3px;border-radius:5px;">
         </a>

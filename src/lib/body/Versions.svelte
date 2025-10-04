@@ -5,6 +5,8 @@
       visable = !visable;
     }
     let vers = $state([
+      ["Guyot צ","https://classicmc-studios.github.io/Westonism/old_guyot/tsadek"],
+      ["Guyot א","https://classicmc-studios.github.io/Westonism/old_guyot/aleph"],
       ["Guyot XXIII Rev 1","https://classicmc-studios.github.io/Westonism/old_guyot/xxiii1",true],
       ["Guyot XXIII","#FromNueot"],
       ["Guyot XXII Rev2","https://classicmc-studios.github.io/Westonism/old_guyot/xxii2",true],

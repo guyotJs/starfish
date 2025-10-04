@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { fade } from 'svelte/transition';
   import Header from './lib/Header.svelte';
-  // import Sno from './lib/Sno.svelte';
+  import Sno from './lib/Sno.svelte';
   import Filler from './lib/Filler.svelte';
   import Links from './lib/Links.svelte';
   import Wotw from './lib/Wotw.svelte';
@@ -14,8 +14,8 @@
   import {setCookie, getCookie} from "./cookies.js";
 
   let visable = $state(false);
-  let version = $state("צ");
-  let date = $state("05/30/2025");
+  let version = $state("XXIV");
+  let date = $state("10/04/2025");
   let bgConsole = $state("gb")
   let dark = $state(false);
   let bgImg = $state("url(https://guyotjs.github.io/consoles/gbLight.png)");
@@ -75,7 +75,7 @@
 <Header {visable} {version} {dark}/>
   {#if visable}
     <div in:fade="{{delay: 1400 + 3 * 150, duration: 800}}">
-      <div class="text-center italic" class:white={dark}>Revision 1</div>
+      <!-- <div class="text-center italic" class:white={dark}>Revision 1</div> -->
       <!-- <Sno {dark}/> -->
       <Links {dark}/>
       <Wotw {dark}/>

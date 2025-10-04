@@ -4,12 +4,12 @@
     ["Books","https://guyotjs.github.io/books"],
     ["Credits","https://guyotjs.github.io/credits"],
     ["Time","https://guyotjs.github.io/tm",true],
-    ["Tusky Time","https://tuskytime.org"],
-    ["Weston","https://classicmc-studios.github.io/Westonism/snowstorm/"],
-    ["Arabic","https://guyotjs.github.io/arabic/",true],
+    ["Bible","https://classicmc-studios.github.io/bible/"],
+    ["La Sacra Iyetta","https://classicmc-studios.github.io/iyet/"],
+    ["Mormon","https://classicmc-studios.github.io/mormon/",true],
     ["Sno","https://snojs.github.io"],
     ["Polycarp","https://guyotjs.github.io/Polycarp"],
-    ["Bible","https://classicmc-studios.github.io/bible/",true]
+    ["Weston","https://classicmc-studios.github.io/Westonism/snowstorm/"]
   ])
 </script>
 <link rel='stylesheet' href="https://guyotjs.github.io/bcss/bc.css"/>
