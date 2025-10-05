@@ -22,9 +22,14 @@
   let toBlend = $state("rgba(255,255,255,0.8)");
   let blender = $state("lighten");
   let showModal = $state(false);
+  let shoSno = $state(true);
 
   function swapVisibility(){
     showModal = !showModal;
+  }
+  let userAgent = $state(navigator.userAgent);
+  if (userAgent.includes("Firefox")) {
+    shoSno = false;
   }
   
   function swapMode(){
@@ -76,7 +81,9 @@
   {#if visable}
     <div in:fade="{{delay: 1400 + 3 * 150, duration: 800}}">
       <div class="text-center italic" class:white={dark}>Revision 1</div>
-      <Sno {dark}/>
+      {#if shoSno}
+        <Sno {dark}/>
+      {/if}
       <Links {dark}/>
       <Wotw {dark}/>
       <Fronds {dark}/>
