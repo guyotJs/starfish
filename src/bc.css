@@ -19,7 +19,8 @@
   border-radius: 5px;
 }
 .nue-calm{
-  color:#49d0a7;
+  /* color:#49d0a7; */
+  color:#DB504A;
 }
 .white-border{
   border:1px solid rgba(255,255,255,0.1);
@@ -97,7 +98,10 @@ h1,h2,h3{
 .white{color:white;}
 .black{color:black;}
 .gray{color:gray;}
-.calm{color:#43AA8B;}
+.calm{
+  color:#DB504A!important;
+  /* color:#43AA8B; */
+}
 .alert{color: #DB504A;}
 .info{color: #FF6F59;}
 .null{color: #B2B09B;}
