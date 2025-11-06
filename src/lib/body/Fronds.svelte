@@ -109,7 +109,7 @@
 </style>
 <div class="text-center p w-react m-m blur" class:white-border={dark} class:dark={!dark} class:white={dark}>
   <div style="display:inline-block">
-    <i class="fa fa-gamepad"></i> <button onclick={reset} class="f fake-button" class:white={dark}>Fronds</button>
+    <i class="fa fa-tree"></i> <button onclick={reset} class="f fake-button" class:white={dark}>Fronds</button>
   </div>
   <hr/>
   <div>

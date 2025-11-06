@@ -12,7 +12,7 @@
   const MELTING_WAIT = $state(0)
   const MELTING_DURATION = $state(0)
   const WIND_FORCE = $state(0.25)
-  const SNOW_ICONS = $state(['🍂', ' 🍁', '🌿'])
+  const SNOW_ICONS = $state(['•', '•', '•'])
 
   const MAX_TOTAL_TIME = $derived(MAX_FALL_DURATION + MELTING_WAIT + MELTING_DURATION)
 

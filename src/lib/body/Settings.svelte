@@ -37,7 +37,7 @@
         </button>
       {/if}<br/>
       <p class:white={dark}>
-        Release <b class:white={dark} class="true-serif">{version}</b> Rev1, <em class:white={dark}>{date}</em><br/>
+        Release <b class:white={dark} class="true-serif">{version}</b> Rev3, <em class:white={dark}>{date}</em><br/>
         Made by, <span class:white={dark} class="hover">Weston</span><br/>
         <button class:white={dark} onclick={swapVisibility} class:nin={!dark}>Legal + Info</button> 
         

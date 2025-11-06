@@ -26,7 +26,7 @@
 </style>
 <div class="text-center p w-react m-m blur" class:white-border={dark} class:dark={!dark}>
   <div style="display:inline-block;" class:white={dark}>
-    <i class="fa fa-laptop"></i> Sites
+    <i class="fa fa-snowflake-o"></i> Sites
   </div>
   <hr/>
   <div class="text-center">

@@ -64,8 +64,8 @@
     top:0;
     z-index: -100;
     background-image: var(--currentbg),
-      radial-gradient(circle at 30% 30%, rgba(201, 27, 4, 0.5), transparent 100%),
-      radial-gradient(circle at 70% 90%, rgba(255, 243, 5, 0.5), transparent 100%);;
+      radial-gradient(circle at 30% 30%, rgba(138, 185, 179, 0.5), transparent 100%),
+      radial-gradient(circle at 70% 90%, rgba(5, 255, 234, 0.5), transparent 100%);;
     background-color: var(--color);
     background-blend-mode: var(--blender);
     background-repeat:no-repeat;background-size:cover;background-position:center center;background-attachment:fixed!important;
@@ -80,7 +80,7 @@
 <Header {visable} {version} {dark}/>
   {#if visable}
     <div in:fade="{{delay: 1400 + 3 * 150, duration: 800}}">
-      <div class="text-center italic" class:white={dark}>Revision 1</div>
+      <!-- <div class="text-center italic" class:white={dark}>Revision 1</div> -->
       {#if shoSno}
         <Sno {dark}/>
       {/if}
