@@ -14,8 +14,8 @@
   import {setCookie, getCookie} from "./cookies.js";
 
   let visable = $state(false);
-  let version = $state("XXIV");
-  let date = $state("10/04/2025");
+  let version = $state("XXV");
+  let date = $state("11/06/2025");
   let bgConsole = $state("gb")
   let dark = $state(false);
   let bgImg = $state("url(https://guyotjs.github.io/consoles/gbLight.png)");

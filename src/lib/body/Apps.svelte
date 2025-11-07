@@ -9,7 +9,7 @@
     ["Mormon","https://classicmc-studios.github.io/mormon/",true],
     ["Sno","https://snojs.github.io"],
     ["Polycarp","https://guyotjs.github.io/Polycarp"],
-    ["Weston","https://classicmc-studios.github.io/Westonism/snowstorm/"]
+    ["Thalata","https://guyotjs.github.io/thalata"]
   ])
 </script>
 <link rel='stylesheet' href="https://guyotjs.github.io/bcss/bc.css"/>
